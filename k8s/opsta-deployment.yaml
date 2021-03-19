@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: opsta-dev-web
-        image: ghcr.io/[GITHUB_USER]/opsta-web:dev
+        image: ghcr.io/naturegecko/opsta-web:dev
         imagePullPolicy: Always
         ports:
         - containerPort: 80
